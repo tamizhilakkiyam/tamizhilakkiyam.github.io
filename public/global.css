@@ -107,6 +107,7 @@ body {
 	font-weight: bold;
 	display: inline-block;
 	font-family: "Hind Madurai";
+	text-decoration: none;
 }
 
 .kural-button:hover {
