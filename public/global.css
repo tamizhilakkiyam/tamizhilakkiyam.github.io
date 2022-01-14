@@ -1,0 +1,107 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #18181d;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #6580b1;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #7298da;
+}
+
+.tamil {
+	font-family: "Hind Madurai";
+}
+
+.english {
+	font-family: "Changa";
+	line-height: 1.4;
+}
+
+.cover {
+	background-color: #f0da1a;
+	color: black;
+	font-family: "Hind Madurai";
+	padding: 40px 80px;
+	padding-top: 100px;
+}
+
+.content {
+	padding: 40px 80px;
+	min-height: 100vh;
+}
+
+.cover h3 {
+	margin: 0;
+	line-height: 1;
+}
+
+.cover h1 {
+	margin: 0;
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+
+.cover p {
+	margin: 0;
+}
+
+.content-box {
+	padding: 20px;
+	border-radius: 6px;
+	border: 2px dotted #f0da1a;
+	margin-top: 20px;
+}
+
+.content-box p {
+	margin: 0;
+}
+
+.blockquote {
+	padding-left: 10px;
+	border-left: 4px solid #f0da1a;
+	margin-top: 10px;
+}
+
+.footer {
+	padding: 40px 80px;
+	background-color: #f0da1a;
+	color: black;
+}
+
+.footer p {
+	margin: 0;
+}
+
+.footer a {
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+@media (max-width: 500px) {
+	.cover, .content, .footer {
+		padding: 30px 60px;
+	}
+
+	.cover h1 {
+		font-size: 40px;
+	}
+}

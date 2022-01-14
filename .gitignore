@@ -1,0 +1,10 @@
+/node_modules/
+package-lock.json
+global.css.pretty
+/public/build/
+.DS_Store
+compiled-fdetail.json
+detail.json
+dfix.js
+fix.js
+json/
