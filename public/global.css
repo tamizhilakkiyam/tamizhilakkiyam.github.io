@@ -44,7 +44,7 @@ body {
 	min-height: 100vh;
 }
 
-.cover h3 {
+.cover h3, .content-box h2 {
 	margin: 0;
 	line-height: 1;
 }
@@ -96,6 +96,23 @@ body {
 	font-weight: bold;
 }
 
+.kural-button {
+	cursor: pointer;
+	margin: 12px 5px;
+	background-color: #f0da1a;
+	color: black;
+	padding: 5px;
+	min-width: 25%;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	font-family: "Hind Madurai";
+}
+
+.kural-button:hover {
+	background-color: #ffea2c;
+}
+
 @media (max-width: 500px) {
 	.cover, .content, .footer {
 		padding: 30px 60px;
@@ -103,5 +120,11 @@ body {
 
 	.cover h1 {
 		font-size: 40px;
+	}
+
+	.kural-button {
+		width: calc(100% - 20px);
+		font-size: 14px;
+		margin-bottom: 0;
 	}
 }

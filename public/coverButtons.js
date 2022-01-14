@@ -1,7 +1,7 @@
 const pages = [
-    { name: "Home", href: "/" },
-    { name: "Tirukural", href: "/tirukural" },
-    { name: "Aathichudi", href: "/aathichudi" }
+    { name: "Home", href: "" },
+    { name: "Tirukural", href: "tirukural" },
+    { name: "Aathichudi", href: "aathichudi" }
 ]
 
 window.addEventListener('load', () => {
